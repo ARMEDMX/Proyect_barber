@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../img/fondo.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.form-group {
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  .container-form {
+    max-width: 400px;
+    width: 320px;
+    padding: 1rem;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    position: relative;
+    background: slategrey;
+    color: #fff;
+   
+  }
+  
+  input[type="submit"] {
+    margin-top: 1rem;
+  }
+
+.container-form h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 23px;
+}
+
+.container-form input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+  .container-form .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -45px;
+    left: calc(53% - 50px);
+}
+
+.icon-eye {
+  position: absolute;
+  height: 20px;
+  top: 63%;
+  right: 15px;
+  transform: translate(-45%);
+  opacity: 0.3;
+  cursor: pointer;
+}
+  
+.icon-eye:hover{
+  opacity: 0.8;
+}
+#Eye {
+  position: absolute;
+  top: 374px; /* ajustar según sea necesario */
+  right: 20px; /* ajustar según sea necesario */
+}
+
+  @media (max-width: 480px) {
+    .container-form {
+      max-width: 100%;
+      width: 100%;
+    }
+  
+    .container-form h1{
+        margin: 0;
+        padding-top: 20px;
+        text-align: center;
+        font-size: 23px;
+        
+    }
+    .container-form .avatar {
+      width: 100px;
+      height: 100px;
+      top: -43px;
+      left: calc(52% - 50px);
+    }
+    .icon-eye {
+      position: absolute;
+      height: 20px;
+      top: 64.5%;
+      right: 10px;
+      transform: translate(-70%);
+      opacity: 0.3;
+      cursor: pointer;
+    }
+    #Eye {
+      position: absolute;
+      top: 393px; /* ajustar según sea necesario */
+      right: 20px; /* ajustar según sea necesario */
+    }
+  }
+
+  .icono-volver {
+    width: 30px;
+    height: 30px;
+    fill: #fff;
+  }
+
+  
